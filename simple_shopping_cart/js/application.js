@@ -19,7 +19,7 @@ $(document).ready(function() {
 		
 	  //if it is not zero, add the replace the empyty text
       if (subtotal != 0) {
-        $($('.item-subtotal')[i]).text("$" + subtotal);
+        $($('.item-subtotal')[i]).text("$" + subtotal)rm ;
       } else {
         $($('.item-subtotal')[i]).text("$--.--");
       }
